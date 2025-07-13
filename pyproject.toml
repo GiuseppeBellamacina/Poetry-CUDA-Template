@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "torch-cuda-py312"
+version = "0.1.0"
+description = "Progetto template con PyTorch e supporto CUDA"
+authors = ["Giuseppe Bellamacina <bellamacina50@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+python-dotenv = "*"
+matplotlib = "*"
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
+tqdm = "*"
+jupyter = "*"
+seaborn = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-openai = "*"
+huggingface-hub = {extras = ["cli"], version = "*"}
+langchain-huggingface = "*"
+ipywidgets = "*"
+mcp = {extras = ["cli"], version = "^1.11.0"}
+fastapi = "^0.116.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "*"
+black = "*"
+ruff = "*"

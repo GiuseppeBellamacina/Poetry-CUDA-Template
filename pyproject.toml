@@ -22,8 +22,9 @@ langchain-openai = "*"
 huggingface-hub = {extras = ["cli"], version = "*"}
 langchain-huggingface = "*"
 ipywidgets = "*"
-mcp = {extras = ["cli"], version = "^1.11.0"}
-fastapi = "^0.116.1"
+mcp = {extras = ["cli"], version = "^*"}
+fastapi = "*"
+transformers = "*"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "*"

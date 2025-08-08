@@ -1,9 +1,4 @@
-````markdown
 # 📦 Poetry Cheatsheet
-
-> Gestione moderna dei progetti Python e dei virtualenv
-
----
 
 ## 🛠️ Setup iniziale
 
@@ -11,7 +6,6 @@
 poetry init                # Crea un pyproject.toml (interattivo)
 poetry new myproject       # Crea un nuovo progetto con struttura base
 ```
-````
 
 ---
 
@@ -62,7 +56,7 @@ poetry lock                               # Rigenera il file poetry.lock
 
 ---
 
-## 🚀 Comandi utili
+## 🔧 Comandi utili
 
 ```bash
 poetry build              # Crea il pacchetto (.whl e .tar.gz)

@@ -22,7 +22,7 @@ langchain-openai = "*"
 huggingface-hub = {extras = ["cli"], version = "*"}
 langchain-huggingface = "*"
 ipywidgets = "*"
-mcp = {extras = ["cli"], version = "^*"}
+mcp = {extras = ["cli"], version = "*"}
 fastapi = "*"
 transformers = "*"
 

@@ -25,6 +25,7 @@ ipywidgets = "*"
 mcp = {extras = ["cli"], version = "*"}
 fastapi = "*"
 transformers = "*"
+langgraph = "*"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "*"

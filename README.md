@@ -26,7 +26,7 @@ poetry env remove <path>   # Rimuove un venv
 ## 📦 Gestione dipendenze
 
 ```bash
-poetry add <pacchetto>                     # Aggiunge una dipendenza
+poetry add <pacchetto>                    # Aggiunge una dipendenza
 poetry add <pacchetto>@<versione>         # Con una versione specifica
 poetry add <pacchetto> --group dev        # Aggiunge come dipendenza di sviluppo
 

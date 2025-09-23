@@ -1,2 +1,2 @@
 *.toml linguist-detectable
-*.sql linguist-language=TOML
+*.toml linguist-language=TOML

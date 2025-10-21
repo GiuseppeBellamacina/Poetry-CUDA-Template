@@ -27,6 +27,7 @@ fastapi = "*"
 transformers = "*"
 langgraph = "*"
 pygame = "^2.6.1"
+tensorboard = "^2.20.0"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "*"

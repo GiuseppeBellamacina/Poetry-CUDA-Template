@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "torch-cuda-py312"
 version = "0.1.0"
-description = "Progetto template con PyTorch e supporto CUDA"
+description = "Ambiente template con PyTorch e supporto CUDA"
 authors = ["Giuseppe Bellamacina <bellamacina50@gmail.com>"]
 package-mode = false
 

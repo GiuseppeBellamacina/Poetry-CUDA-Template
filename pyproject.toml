@@ -26,8 +26,8 @@ mcp = {extras = ["cli"], version = "*"}
 fastapi = "*"
 transformers = "*"
 langgraph = "*"
-pygame = "^2.6.1"
-tensorboard = "^2.20.0"
+pygame = "*"
+tensorboard = "*"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "*"

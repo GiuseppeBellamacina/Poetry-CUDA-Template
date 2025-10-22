@@ -124,10 +124,10 @@ poetry env remove <path>           # Rimuove un venv specifico
 
 ## 🚀 Torch
 
-Per installare PyTorch con CUDA 12.1, usa il seguente comando:
+Per installare PyTorch con CUDA 13.0, usa il seguente comando:
 
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
 ```
 
 Poetry non gestisce direttamente le versioni di PyTorch, quindi usa `pip` per installarlo nel venv creato da Poetry. Ovviamente questo comando non aggiornerà il `pyproject.toml`, quindi dovrai aggiungere manualmente PyTorch come dipendenza se necessario.
